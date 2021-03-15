@@ -38,8 +38,7 @@ while a:
         os.system(clear)
         b = input("what file do you want to decode:\n\n")
         os.system(clear)
-        a = input("cap:\n\n")
-        sbx.decodeFile(b, a)
+        sbx.decodeFile(b)
         print("\n" + b + " decoded")
         input()
     elif i == "decodeFileLoop":
